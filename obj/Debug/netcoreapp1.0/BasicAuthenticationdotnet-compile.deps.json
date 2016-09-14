@@ -14,7 +14,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v1.0": {
-      "BasicAuthentication/1.0.0": {
+      "basicAuthentication/1.0.0": {
         "dependencies": {
           "Microsoft.NETCore.App": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
@@ -29,7 +29,7 @@
           "Microsoft.Extensions.Logging.Console": "1.0.0"
         },
         "compile": {
-          "BasicAuthentication.dll": {}
+          "basicAuthentication.dll": {}
         }
       },
       "Libuv/1.9.0": {
@@ -2725,7 +2725,7 @@
       }
     },
     ".NETCoreApp,Version=v1.0/": {
-      "BasicAuthentication/1.0.0": {
+      "basicAuthentication/1.0.0": {
         "dependencies": {
           "Microsoft.NETCore.App": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
@@ -2740,7 +2740,7 @@
           "Microsoft.Extensions.Logging.Console": "1.0.0"
         },
         "runtime": {
-          "BasicAuthentication.dll": {}
+          "basicAuthentication.dll": {}
         }
       },
       "Libuv/1.9.0": {
@@ -5344,7 +5344,7 @@
     }
   },
   "libraries": {
-    "BasicAuthentication/1.0.0": {
+    "basicAuthentication/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

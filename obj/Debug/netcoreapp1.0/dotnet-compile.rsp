@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\bin\Debug\netcoreapp1.0\BasicAuthentication.dll
+--temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\bin\Debug\netcoreapp1.0\basicAuthentication.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -8,7 +8,7 @@
 --suppress-warning:CS1705
 --optimize:False
 --emit-entry-point:True
---output-name:BasicAuthentication
+--output-name:basicAuthentication
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -199,18 +199,19 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\obj\Debug\netcoreapp1.0\BasicAuthenticationdotnet-compile.deps.json",BasicAuthentication.deps.json
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Program.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Startup.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Controllers\AccountController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Controllers\ToDoController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Migrations\20160913155056_Initial.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Migrations\20160913155056_Initial.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Migrations\20160913164641_AddItemTable.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Migrations\20160913164641_AddItemTable.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Migrations\ApplicationDbContextModelSnapshot.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Models\ApplicationDbContext.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Models\ApplicationUser.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\Models\Item.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\ViewModels\LoginViewModel.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\BasicAuthentication\src\BasicAuthentication\ViewModels\RegisterViewModel.cs
+--resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\obj\Debug\netcoreapp1.0\basicAuthenticationdotnet-compile.deps.json",basicAuthentication.deps.json
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Program.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Startup.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Controllers\AccountController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Controllers\ToDoController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913155056_Initial.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913155056_Initial.Designer.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913164641_AddItemTable.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913164641_AddItemTable.Designer.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Models\ApplicationDbContext.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Models\ApplicationUser.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Models\Item.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\ViewModels\LoginViewModel.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\ViewModels\RegisterViewModel.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\ViewModels\RoleViewModel.cs

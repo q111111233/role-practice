@@ -8,6 +8,6 @@ namespace BasicAuthentication.Models
 {
     public class ApplicationUser : IdentityUser
     {
-
+        
     }
 }

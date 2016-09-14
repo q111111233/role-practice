@@ -4,6 +4,7 @@
 }
 
 @using System.Security.Claims
+@model IEnumerable<BasicAuthentication.ViewModels.RoleViewModel>
 
 <h2>Authentication with Identity</h2>
 <hr />
@@ -21,3 +22,4 @@ else
 <p>@Html.ActionLink("Register", "Register")</p>
 <p>@Html.ActionLink("Log in", "Login")</p>
 }
+

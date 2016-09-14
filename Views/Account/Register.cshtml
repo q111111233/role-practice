@@ -20,5 +20,9 @@
     @Html.LabelFor(m => m.ConfirmPassword)
     @Html.PasswordFor(m => m.ConfirmPassword)
 
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+
     <input type="submit" value="Register" />
 }
