@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<BasicAuthentication.Models.Tag>
+
+
+<h2>Tag image</h2>
+<hr />
+@if (Model.Any())
+{
+    <ul>
+        @foreach (var tagList in Model)
+        {
+
+           <li>@Html.DisplayFor(tagList => tagList.Name)</li> 
+        }
+    </ul>
+}
+else
+{
+    <p>No tag has been added.</p>
+}
+@Html.ActionLink("New Tag", "Create")
+@Html.ActionLink("Back to images", "Index")

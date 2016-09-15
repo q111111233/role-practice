@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\bin\Debug\netcoreapp1.0\basicAuthentication.dll
+--temp-output:C:\Users\epicodus\Source\Repos\role-practice\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Source\Repos\role-practice\bin\Debug\netcoreapp1.0\role-practice.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -8,7 +8,7 @@
 --suppress-warning:CS1705
 --optimize:False
 --emit-entry-point:True
---output-name:basicAuthentication
+--output-name:role-practice
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -199,19 +199,21 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\obj\Debug\netcoreapp1.0\basicAuthenticationdotnet-compile.deps.json",basicAuthentication.deps.json
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Program.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Startup.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Controllers\AccountController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Controllers\ToDoController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913155056_Initial.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913155056_Initial.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913164641_AddItemTable.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\20160913164641_AddItemTable.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Migrations\ApplicationDbContextModelSnapshot.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Models\ApplicationDbContext.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Models\ApplicationUser.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\Models\Item.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\ViewModels\LoginViewModel.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\ViewModels\RegisterViewModel.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\basicAuthentication\ViewModels\RoleViewModel.cs
+--resource:"C:\Users\epicodus\Source\Repos\role-practice\obj\Debug\netcoreapp1.0\role-practicedotnet-compile.deps.json",role-practice.deps.json
+C:\Users\epicodus\Source\Repos\role-practice\Program.cs
+C:\Users\epicodus\Source\Repos\role-practice\Startup.cs
+C:\Users\epicodus\Source\Repos\role-practice\Controllers\AccountController.cs
+C:\Users\epicodus\Source\Repos\role-practice\Controllers\ImageController.cs
+C:\Users\epicodus\Source\Repos\role-practice\Controllers\TagController.cs
+C:\Users\epicodus\Source\Repos\role-practice\Controllers\ToDoController.cs
+C:\Users\epicodus\Source\Repos\role-practice\Migrations\20160915230819_table.cs
+C:\Users\epicodus\Source\Repos\role-practice\Migrations\20160915230819_table.Designer.cs
+C:\Users\epicodus\Source\Repos\role-practice\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\Users\epicodus\Source\Repos\role-practice\Models\ApplicationDbContext.cs
+C:\Users\epicodus\Source\Repos\role-practice\Models\ApplicationUser.cs
+C:\Users\epicodus\Source\Repos\role-practice\Models\Image.cs
+C:\Users\epicodus\Source\Repos\role-practice\Models\Item.cs
+C:\Users\epicodus\Source\Repos\role-practice\Models\Tag.cs
+C:\Users\epicodus\Source\Repos\role-practice\ViewModels\LoginViewModel.cs
+C:\Users\epicodus\Source\Repos\role-practice\ViewModels\RegisterViewModel.cs
+C:\Users\epicodus\Source\Repos\role-practice\ViewModels\RoleViewModel.cs

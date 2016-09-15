@@ -1,0 +1,25 @@
+﻿@{
+        ViewData["Title"] = "Index";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    @model IEnumerable<BasicAuthentication.Models.Image>
+   
+    <h2>Images by @User.Identity.Name</h2>
+    <hr />
+    @if (Model.Any())
+    {
+        <ul>
+            @foreach (var image in Model)
+            {
+                <p><img src="@Html.DisplayFor(q => image.ImageUrl)"/> |
+                    @Html.ActionLink("Tag", "index", "Tag", new { id = image.ImageId }) |
+                @Html.ActionLink("Delete", "Delete", new { imageId = image.ImageId })
+            </p>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No questions has been added.</p>
+    }
+    @Html.ActionLink("New Image", "Create")

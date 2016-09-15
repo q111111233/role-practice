@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model BasicAuthentication.Models.Image
+
+
+<h2>Add new images</h2>
+<hr />
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.ImageUrl)
+    @Html.EditorFor(model => model.ImageUrl)
+    <input type="submit" value="Create" placeholder="enter image url" />
+}
+@Html.ActionLink("Back to images", "Index")

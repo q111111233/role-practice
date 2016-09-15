@@ -18,5 +18,7 @@ namespace BasicAuthentication.Models
             base.OnModelCreating(builder);
         }
         public DbSet<Item> Items { get; set; }
+        public DbSet<Image> Images { get; set; }
+        public DbSet<Tag> Tags { get; set; }
     }
 }
